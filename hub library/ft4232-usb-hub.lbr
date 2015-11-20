@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="HUB">
+<pad name="19" x="-13.97" y="-3.81" drill="0.8" diameter="1.6764" shape="square"/>
+<pad name="20" x="-11.43" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="21" x="-8.89" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="22" x="-6.35" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="23" x="-3.81" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="24" x="-1.27" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="25" x="1.27" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="26" x="3.81" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="27" x="6.35" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="28" x="8.89" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="29" x="11.43" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="30" x="13.97" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="31" x="16.51" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="32" x="19.05" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="33" x="21.59" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="34" x="24.13" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="35" x="26.67" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="36" x="29.21" y="-3.81" drill="0.8" diameter="1.6764"/>
+<pad name="1" x="-13.97" y="16.51" drill="0.8" diameter="1.6764" shape="square"/>
+<pad name="2" x="-11.43" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="3" x="-8.89" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="4" x="-6.35" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="5" x="-3.81" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="6" x="-1.27" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="7" x="1.27" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="8" x="3.81" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="9" x="6.35" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="10" x="8.89" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="11" x="11.43" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="12" x="13.97" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="13" x="16.51" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="14" x="19.05" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="15" x="21.59" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="16" x="24.13" y="16.51" drill="0.8" diameter="1.6764"/>
+<pad name="17" x="26.67" y="16.51" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="18" x="29.21" y="16.51" drill="0.8" diameter="1.6764"/>
+<wire x1="-30.48" y1="17.78" x2="-30.48" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-30.48" y1="12.7" x2="-30.48" y2="0" width="0.127" layer="51"/>
+<wire x1="-30.48" y1="0" x2="-30.48" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="-30.48" y1="-5.08" x2="44.45" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="44.45" y1="-5.08" x2="44.45" y2="17.78" width="0.127" layer="51"/>
+<wire x1="44.45" y1="17.78" x2="-30.48" y2="17.78" width="0.127" layer="51"/>
+<wire x1="36.83" y1="12.7" x2="36.83" y2="0" width="0.127" layer="51"/>
+<wire x1="36.83" y1="0" x2="55.88" y2="0" width="0.127" layer="51"/>
+<wire x1="55.88" y1="0" x2="55.88" y2="12.7" width="0.127" layer="51"/>
+<wire x1="55.88" y1="12.7" x2="36.83" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-30.48" y1="12.7" x2="-34.29" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-34.29" y1="12.7" x2="-34.29" y2="0" width="0.127" layer="51"/>
+<wire x1="-34.29" y1="0" x2="-30.48" y2="0" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HUB">
+<description>USB to serail HUB</description>
+<wire x1="-48.26" y1="12.7" x2="-48.26" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-12.7" x2="48.26" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-12.7" x2="48.26" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-5.08" x2="48.26" y2="5.08" width="0.254" layer="94"/>
+<wire x1="48.26" y1="5.08" x2="48.26" y2="12.7" width="0.254" layer="94"/>
+<wire x1="48.26" y1="12.7" x2="-48.26" y2="12.7" width="0.254" layer="94"/>
+<pin name="NC3" x="-43.18" y="-17.78" length="middle" rot="R90"/>
+<pin name="VBUS" x="-38.1" y="-17.78" length="middle" rot="R90"/>
+<pin name="5V" x="-33.02" y="-17.78" length="middle" rot="R90"/>
+<pin name="DD0" x="-27.94" y="-17.78" length="middle" rot="R90"/>
+<pin name="DD1" x="-22.86" y="-17.78" length="middle" rot="R90"/>
+<pin name="DD2" x="-17.78" y="-17.78" length="middle" rot="R90"/>
+<pin name="DD3" x="-12.7" y="-17.78" length="middle" rot="R90"/>
+<pin name="GND3" x="-7.62" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD0" x="-2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD1" x="2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD2" x="7.62" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD3" x="12.7" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD4" x="17.78" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD5" x="22.86" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD6" x="27.94" y="-17.78" length="middle" rot="R90"/>
+<pin name="AD7" x="33.02" y="-17.78" length="middle" rot="R90"/>
+<pin name="DP4" x="38.1" y="-17.78" length="middle" rot="R90"/>
+<pin name="DM4" x="43.18" y="-17.78" length="middle" rot="R90"/>
+<pin name="NC4" x="-43.18" y="17.78" length="middle" rot="R270"/>
+<pin name="PWREN" x="-38.1" y="17.78" length="middle" rot="R270"/>
+<pin name="DATA" x="-33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="CS" x="-27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="CLK" x="-22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="GND4" x="-17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="CD3" x="-12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="CD2" x="-7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="CD1" x="-2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="CD0" x="2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="BD7" x="7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="BD6" x="12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="BD5" x="17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="BD4" x="22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="BD3" x="27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="BD2" x="33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="BD1" x="38.1" y="17.78" length="middle" rot="R270"/>
+<pin name="BD0" x="43.18" y="17.78" length="middle" rot="R270"/>
+<wire x1="48.26" y1="5.08" x2="55.88" y2="5.08" width="0.254" layer="94"/>
+<wire x1="55.88" y1="5.08" x2="55.88" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="55.88" y1="-5.08" x2="48.26" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HUB">
+<gates>
+<gate name="G$1" symbol="HUB" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="HUB">
+<connects>
+<connect gate="G$1" pin="5V" pad="3"/>
+<connect gate="G$1" pin="AD0" pad="9"/>
+<connect gate="G$1" pin="AD1" pad="10"/>
+<connect gate="G$1" pin="AD2" pad="11"/>
+<connect gate="G$1" pin="AD3" pad="12"/>
+<connect gate="G$1" pin="AD4" pad="13"/>
+<connect gate="G$1" pin="AD5" pad="14"/>
+<connect gate="G$1" pin="AD6" pad="15"/>
+<connect gate="G$1" pin="AD7" pad="16"/>
+<connect gate="G$1" pin="BD0" pad="36"/>
+<connect gate="G$1" pin="BD1" pad="35"/>
+<connect gate="G$1" pin="BD2" pad="34"/>
+<connect gate="G$1" pin="BD3" pad="33"/>
+<connect gate="G$1" pin="BD4" pad="32"/>
+<connect gate="G$1" pin="BD5" pad="31"/>
+<connect gate="G$1" pin="BD6" pad="30"/>
+<connect gate="G$1" pin="BD7" pad="29"/>
+<connect gate="G$1" pin="CD0" pad="28"/>
+<connect gate="G$1" pin="CD1" pad="27"/>
+<connect gate="G$1" pin="CD2" pad="26"/>
+<connect gate="G$1" pin="CD3" pad="25"/>
+<connect gate="G$1" pin="CLK" pad="23"/>
+<connect gate="G$1" pin="CS" pad="22"/>
+<connect gate="G$1" pin="DATA" pad="21"/>
+<connect gate="G$1" pin="DD0" pad="4"/>
+<connect gate="G$1" pin="DD1" pad="5"/>
+<connect gate="G$1" pin="DD2" pad="6"/>
+<connect gate="G$1" pin="DD3" pad="7"/>
+<connect gate="G$1" pin="DM4" pad="18"/>
+<connect gate="G$1" pin="DP4" pad="17"/>
+<connect gate="G$1" pin="GND3" pad="8"/>
+<connect gate="G$1" pin="GND4" pad="24"/>
+<connect gate="G$1" pin="NC3" pad="1"/>
+<connect gate="G$1" pin="NC4" pad="19"/>
+<connect gate="G$1" pin="PWREN" pad="20"/>
+<connect gate="G$1" pin="VBUS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
